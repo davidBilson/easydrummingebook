@@ -1,0 +1,244 @@
+        .logo {
+            font-weight: 600;
+            font-size: 1.2rem;
+            padding: 40px 0px;
+        }
+        .logo-first {
+            color: red;
+            font-weight: 800;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        html {
+            scroll-behavior: smooth;
+            user-select: none;
+        }
+        * input:focus {
+            outline: none;
+        }
+        .navbar {
+            width: 100%;
+            border-bottom: 3px solid darkred;
+        }
+        nav {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            margin: 0;
+            max-width: 1500px;
+            margin: auto;
+        }
+        nav > div {
+            margin-top: 0px;
+            margin: 5px 5px 0px 0px;
+        }
+        nav > div:nth-child(2) {
+            font-size: 14px;
+        }
+        nav a {
+            text-decoration: none;
+            color: inherit;
+            font-weight: 600;
+        }
+        .nav-wrd {
+            margin: 0;
+            padding: 0;
+            font-size: 12px;
+            font-style: italic;
+            font-weight: 500;
+            color: darkred;
+        }
+        .section {
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 60vh;
+            background: url(images/bg-one.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            text-align: center;
+            color: whitesmoke;
+        }
+   
+        .contain {
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,.671);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .pad-p {
+            padding: 0px 20px;
+        }
+        .tp {
+            font-size: 2.8rem;
+            font-weight: 900;
+        }
+        .pt {
+            font-weight:700;
+            font-size: 1.2rem;
+            color: white;
+        }
+        .main-article {
+            max-width: 1300px;
+            margin: 0 auto;
+            padding: 15px;
+
+        }
+        .main-article button {
+            padding: 6px 20px;
+            font-size: 12px;
+            font-weight: 600;
+            margin: 10px 10px 0px 0px;
+            background: darkred;
+            color: rgb(226, 226, 226);
+            border: none;
+        }
+        .category {
+            font-size: 14px;
+            font-weight: 600;
+        }
+        .post {
+            font-size: 13px;
+            color: #000;
+            font-style: italic;
+            line-height: 1.3rem;
+        }
+        .compass {
+            font-size: 1.2rem;
+            line-height: 1.6rem;
+        }
+        .cta {
+            text-decoration: none;
+            color: whitesmoke;
+            background: darkred;
+            font-size: 15px;
+            font-weight: 600;
+            max-width: 210px;
+            padding: 13px 40px;
+            border: none;
+        }
+        footer {
+            width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 40px 0px 15px 0px;
+            text-align: center;
+            background: rgb(2,2,2);
+            color: rgb(196, 196, 196);
+            font-size: 14px;
+        }
+        footer a {
+            color: rgb(199, 199, 199);
+            text-decoration: none;
+        }
+        .copy {
+            font-size: 13px;
+            color: rgb(161, 161, 161);
+        }
+       
+
+        .optin-box {
+            max-width: 1000px;
+            height: auto;
+            margin: 80px auto;
+            padding: 15px;
+        }
+        .benef {
+            font-size: 2.2rem;
+            font-weight: 800;
+        }
+        .bene {
+            
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        ul {
+            list-style-type: square;
+            font-size: 1.2rem;
+            margin: 0;
+        }
+        ul li {
+            margin-bottom: 12px;
+        }
+        
+        .mail {
+            width: 400px;
+            min-height: 20px;
+            border: none;
+            border-bottom: 1px solid darkred;
+            background: none;
+        }
+        .mail:focus {
+            background: none;
+            border: none;
+        }
+        .mail:active {
+            background: none;
+            border: none;
+        }
+        .submit {
+            width: 400px;
+            padding: 13px 0px;
+            font-size: 18px;
+            font-weight: 700;
+            border: none;
+            background: darkred;
+            color: white;
+        }
+        .font-increasse {
+            color: darkred;
+            font-weight: 800;
+        }
+        @media (max-width:500px) {
+            nav > div:nth-child(2) {
+                margin-top: 20px; 
+            }
+            .cta {
+                margin: auto;
+            }
+        .benef {
+            font-size: 2.2rem;
+            font-weight: 800;
+            text-align: center;
+        }
+        .bene {
+            font-size: 1.2rem;
+            font-weight: 700;
+            text-align: center;
+        }
+        .mail {
+            width: 92%;
+            min-height: 20px;
+            border: none;
+            border-bottom: 1px solid darkred;
+            background: none;
+        }
+        .mail:focus {
+            background: none;
+            border: none;
+        }
+        .mail:active {
+            background: none;
+            border: none;
+        }
+        .submit {
+            width: 95%;
+            padding: 13px 0px;
+            font-size: 18px;
+            font-weight: 700;
+            border: none;
+            background: darkred;
+            color: white;
+        }
+            }
